@@ -1,3 +1,8 @@
+> Simplified this to allow you specify environment variables (or just edit the
+> `.env` file) and a single docker file. Just run `docker-compose build` to
+> build or `docker-compose run` to see the versions and a list of binaries
+> installed.
+
 # Ruby + Node Docker Image [![Image Layers](https://images.microbadger.com/badges/image/starefossen/ruby-node:alpine.svg)](https://microbadger.com/#/images/starefossen/ruby-node:alpine)
 
 Docker image with Ruby and Node.js with Yarn installed and ready to roll.
